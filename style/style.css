@@ -1,0 +1,69 @@
+*{
+    background-color: #d9ecf2;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    position: relative;
+}
+
+header h1{
+    background-color: black;
+    color: #ff229d;
+    position: absolute;
+    top: 0;
+    font-size: -webkit-xxx-large;
+    left: 25%;  
+}
+
+header nav ul li{
+    list-style-position: inside;
+    color: blanchedalmond;
+    background-color: black;
+    list-style: none;
+    margin-left: 0%;
+}
+
+.menu ul{
+        display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+}
+
+.menu li a{
+        display: block;
+		padding: 2em;
+		background-color: #41aea9;
+		text-decoration: none;
+        color: #191C26;
+        position: -webkit-sticky;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
+    position: block;
+}
+
+aside{
+    float: right;
+    position: block;
+}
+
+aside .image1{
+    height: 300px;
+    width: 300px;
+    top: 0%;
+}
+
+#episodes section .season1{
+    float: right;
+    position: block;
+}
+
+iframe{
+    border: 2px;
+    border-color: #41aea9;
+}
